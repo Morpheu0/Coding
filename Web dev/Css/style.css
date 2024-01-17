@@ -50,13 +50,113 @@ body{
     border: 1px black solid;
     width: 100%;
     height: 50px;
-    background-color: #1E90FF;
+    background-color: black;
+    padding: 5px;      
 }
 
 .nav-menu li{
     display: flex;
     justify-content: space-between;
     list-style-type: none;
+    color: white;
+    position: relative;
+    right: 100px;
+    top: 8px;
+}
+
+.nav-menu a{
+    color: white;
+}
+
+.nav-menu li span{
+    position: relative;
+    left: 210px;
+    top: -2px;
+}
+
+.login p{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    position: relative;
+    left: 100px;
+    bottom: 20px;
+    color: white;
+}
+
+.login span{
+    position: relative;
+    left: 45px;
+    top: 20px;
+    color: white;
+}
+
+.slider{
+    margin: 0 auto;
+    width: 1200px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.slides{
+    width: 400%;
+    height: 400px;
+    display: flex;
+    position: relative;
+    left: 15%;
+}
+
+.slides input{
+    display: none;
+}
+
+.slide{
+    width: 25%;
+    position: relative;
+}
+
+.slide img{
+    width: 800px;
+    
+}
+
+.manual-navigation{
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn{
+    border: 2px solid #fff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    left:25%;
 
 }
 
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+
+.manual-btn:hover{
+    background: #fff;
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .first{
+    margin-left: -50%;
+}
+
+#radio4:checked ~ .first{
+    margin-left: -75%;
+}
