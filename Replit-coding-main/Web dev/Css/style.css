@@ -9,9 +9,6 @@
 body{
     max-width: 5000px;
     background-color: black;
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow-x: hidden;
 }
 
 .container{
@@ -166,76 +163,24 @@ body{
     bottom: 40px;
 }
 
-.suplementos{
-    margin: 0;
-    padding: 0;
-    position: relative;
-    top: 50px;    
-}
-
 .suplementos img{
-    width: 200px;
-    height: 200px;
-    position: relative;
-    background-color: white;
-    margin-left: 100px;
-}
-#img1{
+    width: 300px;
+    height: 300px;
     position: relative;
     top: 10px;
 }
 
 #img2{
     position: relative;
-    top: 10px;
+    top: 50px;
 }
 
 #img3{
     position: relative;
-    top: 10px;
+    top: -1px;
 }
 
 #img4{
     position: relative;
-    top: 10px;
+    top: 35px;
 }
-
-.middle-text{
-    color: white;
-    position: relative;
-    top: 80px;
-}
-
-#text1{
-    position: relative;
-    left: 100px;
-}
-
-#text2{
-    position: relative;
-    left: 402px;
-    bottom: 55px;
-}
-
-#text3{
-    position: relative;
-    left: 705px;
-    bottom: 105px;
-}
-
-#text4{
-    position: relative;
-    left: 1009px;
-    bottom: 155px;
-}
-
-.firhr{
-    position: relative;
-    bottom: 150px;
-}
-
-.sechr{
-    position: relative;
-    bottom: 20px;
-}
-
